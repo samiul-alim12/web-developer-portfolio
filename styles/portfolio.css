@@ -111,6 +111,7 @@ main{
     margin-top: 130px;
     text-align: center;
 
+
 }
 .item-description{
     font-weight: 600;
@@ -146,5 +147,28 @@ main{
 .btn-pr{
     margin-top: 50px;
     text-align: center;
+
+}
+/* footer style */
+footer{
+    display: flex;
+    margin-top: 110px;
+    gap: 117px;
+    padding: 70px 120px;
+}
+.footer-coloumn{
+width: 50%;
+
+}
+footer input[type="text"], input[type="email"],input[type="textarea"]{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 100%;
+    padding: 18px 0px 18px 30px;
+    font-size: 16px;
+    border: none;
+}
+.btn-submit{
+    margin-top: 24px;
 }
 
